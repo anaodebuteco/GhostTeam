@@ -19,3 +19,7 @@ input, select { background:var(--card); color:var(--txt); border:1px solid #2b2f
 input { flex:1; min-width:180px; }
 a { color:var(--acc); } .vazio, small { color:var(--mut); }
 footer { text-align:center; color:var(--mut); padding:24px; }
+.logo { display:flex; align-items:center; gap:8px; }
+.clicavel { cursor:pointer; transition:transform .15s; }
+.clicavel:hover { transform:translateY(-3px); }
+.voltar { background:none; border:0; color:var(--acc); cursor:pointer; font-size:1rem; padding:0; margin-bottom:16px; }

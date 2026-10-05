@@ -3,11 +3,8 @@ export default function Sobre() {
     <section>
       <h1>Sobre a GhostTeam</h1>
       <p className="lead">
-        Somos um time pequeno e silencioso (como um fantasma 👻) que constrói apps, IAs e sites com tecnologias
-        em crescimento e sempre prezando a melhoria e o crescimento.
-      </p>
-      <p className="lead">
-        O bloq esta em desenvolvimento e tera melhorias 
+        Somos um time pequeno e silencioso (como um fantasma 👻) que constrói apps, IAs e blogs com muito
+        café e curiosidade.
       </p>
       <div className="grid">
         <div className="card"><h3>Fundador</h3><p>Pedro Silveira</p></div>

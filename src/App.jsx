@@ -19,7 +19,10 @@ export default function App() {
     <>
       <Navbar abas={abas} atual={atual} onChange={setAtual} />
       <main><Page /></main>
-      <footer>© {new Date().getFullYear()} GhostTeam</footer>
+      <footer>
+        © {new Date().getFullYear()} GhostTeam ·{" "}
+        <a href="https://github.com/anaodebuteco/GhostTeam" target="_blank" rel="noreferrer">GitHub</a>
+      </footer>
     </>
   );
 }
