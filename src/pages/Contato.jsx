@@ -5,7 +5,6 @@ export default function Contato() {
       <p className="lead">Quer conversar, tirar uma dúvida ou propor uma parceria?</p>
       <div className="card">
         <p>📧 <a href="mailto:ghostteam094@yahoo.com">ghostteam094@yahoo.com</a></p>
-        <p>📞 (11) 91234-5678</p>
       </div>
     </section>
   );
